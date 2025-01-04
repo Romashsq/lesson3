@@ -171,8 +171,11 @@ body {
 
 .header-list-item:hover {
   color: #5a539c;
-  text-shadow: 0px 0px 10px #5a539c, 0px 0px 20px #5a539c, 0px 0px 30px #5a539c,
-    0px 0px 40px #3d348b;
+  text-shadow: 0px 0px 10px #5a539c, 0px 0px 20px #5a539c;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header-input {
@@ -265,6 +268,14 @@ body {
   padding: 8px;
 }
 
+.link-about-comp {
+  color: white;
+}
+
+.link-about-comp:hover {
+  color: #7e73db;
+}
+
 .card-usluga {
   margin: 6%;
   margin-top: 30px;
@@ -354,6 +365,10 @@ body {
   margin-top: 30%;
 }
 
+button {
+  text-decoration: none;
+}
+
 .section4 {
   margin-top: 10%;
   margin: 0 auto;
@@ -370,7 +385,7 @@ body {
 .section4-name {
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 12%;
+  margin-bottom: 70px;
 }
 .section4-desc {
   line-height: 1.4;
@@ -385,7 +400,6 @@ body {
   line-height: 1.4;
 }
 .section4-cards {
-  margin-top: 10%;
   width: 50%;
   gap: 24px;
 }
@@ -457,9 +471,23 @@ body {
   opacity: 0px;
 }
 
+.svg-button {
+  background: none;
+  cursor: pointer;
+}
+
 .svg-flex {
   display: flex;
   gap: 10px;
+}
+
+.all-new {
+  color: #5a539c;
+  text-decoration: none;
+}
+
+.all-new:hover {
+  color: #7e73db;
 }
 
 .section5-cards {
